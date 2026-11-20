@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Equipment Required Skills</title>
+    <link rel="stylesheet" href="stylesheet1.css">
+    <style>
+    table {
+        width: 90%;
+        margin: 20px auto;
+        table-layout: fixed;
+        border-spacing: 12px;
+    }
+
+    td {
+        width: 33%;
+        padding: 15px;
+        border: 1px solid grey;
+        border-radius: 15px;
+        background-color: white;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    td img {
+        width: 100%;
+        max-width: 180px;
+    }
+
+    details[open] + img {
+        display: none;
+    }
+</style>
+</head>
+<body style="background-color: black">
+    <table>
+        <tr>   
+            <td>
+                <details>
+                    <summary>Skin the cat</summary>
+                    <p>This impressive trick involves moving your body around yourself while holding onto a bar</p>
+                    <ol>
+                        <li>bar deadhang</li>
+                        <li>pull ups</li>
+                        <li>chin ups</li>
+                    </ol>
+                </details>
+                <img src="skin the cat.png" alt="Skin the cat" onclick="this.previousElementSibling.open = !this.previousElementSibling.open" style="cursor: pointer;" />
+            </td>
+            <td>
+                <details>
+                    <summary>Clutch flag</summary>
+                    <p>This trick looks easy but is an insane arm strength hurdle that many people cannot do, practice the following</p>
+                    <ol>
+                        <li>Clutch hold</li>
+                        <li>single leg diagonal flag</li>
+                        <li>bent knee diagonal flag</li>
+                        <li>full diagonal clutch flag</li>
+                        <li>stag clutch flag</li>
+                        <li>Full clutch flag</li>
+                    </ol>
+                </details>
+                <img src="clutch flag.png" alt="A clutch flag" onclick="this.previousElementSibling.open = !this.previousElementSibling.open" style="cursor: pointer;" />
+            </td>
+            <td>
+                <details>
+                    <summary>Front lever</summary>
+                    <p>Another classic example of looks easy but is actually hard, the front lever challenges your core</p>
+                    <ol>
+                        <li>tuck front lever</li>
+                        <li>advanced tuck front lever</li>
+                        <li>single leg front lever</li>
+                        <li>half lay front lever</li>
+                        <li>straddle front lever</li>
+                        <li>full front lever</li>
+                    </ol>
+                </details>
+                <img src="front lever.png" alt="A Front lever" onclick="this.previousElementSibling.open = !this.previousElementSibling.open" style="cursor: pointer;" />
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
