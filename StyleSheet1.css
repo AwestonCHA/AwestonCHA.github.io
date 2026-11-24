@@ -22,3 +22,9 @@ details[open] summary::after {
 p {
     margin-top: 10px;
 }
+h1 a:link,
+h1 a:visited,
+h1 a:hover,
+h1 a:active {
+    color: white;
+}
